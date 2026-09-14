@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-time="day">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hotbar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="frame">
+    <img class="shot" id="shot" src="assets/welcome-day.jpg" alt="Campfire." data-day="assets/welcome-day.jpg"
+      data-night="assets/welcome-night.jpg">
+
+    <div class="hero">
+      <h1>Welcome to my world</h1>
+      <p>Everything here lives in the hotbar. Click an item to open a page, the golden
+        apple in the last slot switches between day and night.</p>
+    </div>
+    <div class="point"></div>
+    <nav class="hotbar">
+      <a class="slot" href="about.html" aria-label="About me"></a>
+      <a class="slot" href="lavachicken.html" aria-label="Lava chicken"></a>
+      <a class="slot" href="games.html" aria-label="Video games"></a>
+      <a class="slot" href="bouldering.html" aria-label="Bouldering"></a>
+      <span class="slot empty"></span>
+      <span class="slot empty"></span>
+      <span class="slot empty"></span>
+      <span class="slot empty"></span>
+      <button class="slot apple day-night" type="button" aria-label="Switch between day and night"></button>
+    </nav>
+
+  </div>
+
+  <nav class="textnav">
+    <a href="index.html" class="current">Home</a>
+    <a href="about.html">About me</a>
+    <a href="lavachicken.html">Lava chicken</a>
+    <a href="games.html">Video games</a>
+    <a href="bouldering.html">Bouldering</a>
+    <button class="day-night" type="button">Day / Night</button>
+  </nav>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

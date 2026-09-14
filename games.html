@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" data-time="day">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video games</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="frame">
+
+    <img class="shot" id="shot" src="assets/games-day.jpg" alt="somewhere in my world" data-day="assets/games-day.jpg"
+      data-night="assets/games-night.jpg">
+
+
+
+    <article class="panel">
+      <h2>Video games</h2>
+      <p>What I've been playing lately, and what I keep going back to.</p>
+      <ul class="stats">
+        <li><span>Currently</span><b>RDR2 </b></li>
+        <li><span>Comfort game</span><b>Stardew Valley</b></li>
+        <li><span>Most Played</span><b>CS2</b></li>
+        <li><span>Best soundtrack</span><b>Stardew Valley</b></li>
+      </ul>
+      <h3>What I like in a game</h3>
+      <ul class="ticks">
+        <li>Somewhere I can come back to and relax with good story</li>
+        <li>Games where I can optimize like crazy</li>
+        <li>Games I can explore with my friends</li>
+      </ul>
+      <a class="back" href="index.html">&larr; Back to spawn</a>
+    </article>
+
+    <nav class="hotbar">
+      <a class="slot" href="about.html" aria-label="About me"></a>
+      <a class="slot" href="lavachicken.html" aria-label="Lava chicken"></a>
+      <a class="slot current" href="games.html" aria-label="Video games"></a>
+      <a class="slot" href="bouldering.html" aria-label="Bouldering"></a>
+      <span class="slot empty"></span>
+      <span class="slot empty"></span>
+      <span class="slot empty"></span>
+      <span class="slot empty"></span>
+      <button class="slot apple day-night" type="button" aria-label="Switch between day and night"></button>
+    </nav>
+
+  </div>
+
+  <nav class="textnav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About me</a>
+    <a href="lavachicken.html">Lava chicken</a>
+    <a href="games.html" class="current">Video games</a>
+    <a href="bouldering.html">Bouldering</a>
+    <button class="day-night" type="button">Day / Night</button>
+  </nav>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

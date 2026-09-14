@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-time="day">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="frame">
+
+    <img class="shot" id="shot" src="assets/about-day.jpg" alt="My place." data-day="assets/about-day.jpg"
+      data-night="assets/about-night.jpg">
+
+
+    <article class="panel">
+      <h2>About me</h2>
+      <p>Hi I the one who built all of this in minecraft with my friends. I like making things
+        related to what I love which is how I came up with this idea!</p>
+      <p>I'm usually touching plastic rocks or somewhere cold enough
+        to justify a second jacket. Have a look around with the hotbar.</p>
+      <ul class="stats">
+        <li><span>Based in</span><b>Singapore</b></li>
+        <li><span>Class</span><b>Explorer</b></li>
+        <li><span>Playing minecraft since</span><b>2013</b></li>
+        <li><span>Favourite biome</span><b>Anywhere with snow</b></li>
+      </ul>
+      <a class="back" href="index.html">&larr; Back to spawn</a>
+    </article>
+
+    <nav class="hotbar">
+      <a class="slot current" href="about.html" aria-label="About me"></a>
+      <a class="slot" href="lavachicken.html" aria-label="Lava chicken"></a>
+      <a class="slot" href="games.html" aria-label="Video games"></a>
+      <a class="slot" href="bouldering.html" aria-label="Bouldering"></a>
+      <span class="slot empty"></span>
+      <span class="slot empty"></span>
+      <span class="slot empty"></span>
+      <span class="slot empty"></span>
+      <button class="slot apple day-night" type="button" aria-label="Switch between day and night"></button>
+    </nav>
+
+  </div>
+
+  <nav class="textnav">
+    <a href="index.html">Home</a>
+    <a href="about.html" class="current">About me</a>
+    <a href="lavachicken.html">Lava chicken</a>
+    <a href="games.html">Video games</a>
+    <a href="bouldering.html">Bouldering</a>
+    <button class="day-night" type="button">Day / Night</button>
+  </nav>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
